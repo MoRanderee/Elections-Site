@@ -15,9 +15,14 @@ this method redirects the user to the login page
 def user_login(request):
     return render(request, 'authentication/login.html')
 
-"""
-this method checks if the user exists in the DB
-"""
+    """
+    Checks if the user exists in the DB when they login. If they do, they will be redirected to the poll view,
+    if not they will be redirected to the login page to try again.
+    
+    :param str username: stores the username entered by the user
+    :param str password: stores the password entered by the user
+    """
+
 def authenticate_user(request):
     username = request.POST['username']
     password = request.POST['password']
