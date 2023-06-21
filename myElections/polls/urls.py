@@ -2,6 +2,13 @@ from django.urls import path, include
 from . import views
 from django.urls import re_path
 
+"""
+This file contains all the URLs of the elections site run by the polls app.
+
+:param str app_name: The name of the app that will be referred to.
+:param lst urlpatterns: Stores all the URL paths that are called in the polls app.
+"""
+
 app_name = 'polls'
 
 urlpatterns = [
