@@ -6,8 +6,8 @@ This project is a web-app which allows the user to vote for their party in the l
 ## How to install:
 1. Download the entire folder
 2. Open your terminal and navigate to the folder
-3. Create a virtual env
-4. Activate the venv
+3. Create a virtual env: python -m venv venv
+4. Activate the virtual env: venv\Scripts\activate
 5. Run 'pip install -r requirements.txt'
 
 ## How to run:
