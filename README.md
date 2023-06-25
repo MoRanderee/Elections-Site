@@ -19,6 +19,15 @@ How to install:
 
 How to run:
 
+### Docker:
+build the docker image
+redirect to folder with dockerfile
+run the image: docker run -it my_election_app
+
+### Virtual environment:
+create a virtual env
+activate the venv
+then install the requirements.txt
 
 
 Authors and version history:
